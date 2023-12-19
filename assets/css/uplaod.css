@@ -1,0 +1,65 @@
+.uplaod-video-box{
+    width: 100%;
+    height: 100vh;
+}
+.video-files{
+    max-height: 400px;
+    overflow: auto;
+}
+.video-files{
+    border: 0.1px solid #ccc;
+    width: 500px;
+}
+
+.bt-uplaod-box{
+    margin: 10px 0;
+   
+}
+.bt-uplaod-box i{
+    color: white;
+}
+.bt-uplaod-box button{
+    width: 500px;
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.file-item{
+    background-color: #efefef;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.file-item i{
+    color: black;
+    font-size: 1.8rem;
+}
+
+progress{
+    width: 100%;
+    height: 30px;
+}
+
+@media screen  and (max-width:600px) {
+    
+    .video-files{
+        width: 96%;
+    }
+    .bt-uplaod-box button{
+        width: 96%;
+    }
+}
+
+
+
+
+
+
+
+
+

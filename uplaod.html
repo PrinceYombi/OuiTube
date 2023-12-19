@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(3) OuiTube</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="icon" href="assets/images/logo/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+
+</head>
+<body>
+    <header class="sticky">
+        <div class="header-top box flex">
+            <div class="header-top-left flex-1 flex flex-center-v">
+               <div class="header-icon" id="collapse">
+                 <i class="fas fa-bars"></i>
+               </div>               
+                <a href="#">
+                    <div class="logo">
+                        <img src="assets/images/logo/logo-youtube.svg" alt="logo">
+                        <img src="assets/images/logo/favicon.svg" alt="logo">
+                    </div>
+                </a>
+            </div>
+            <div class="header-top-center flex-3 flex flex-center-v flex-center-h">
+                <input type="search" placeholder="Rechercher">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="header-top-right flex-1 flex flex-center-v">
+                <a href="#" class="flex-1 text-center"><i class="fas fa-bell"></i></a>
+                <a href="uplaod.html" class="flex-1 text-center"><i class="fas fa-arrow-circle-up"></i></a>
+                <a href="#" class="flex-1 text-center"><i class="fas fa-user-circle"></i></a>
+            </div>
+        </div>
+        <nav class="header-left fixed box" id="menu">
+            <ul>
+                <li><a href="/">Accueil</a></li>
+                <li><a href="index.html">Bibliotheque</a></li>
+                <li><a href="reader.html">Lecture</a></li>
+                <li><a href="#">Compte</a></li>
+                <li><a href="manage.html">Vidéos</a></li>
+                <li><a href="uplaod.html">Mettre en ligne</a></li>
+                <li><a href="signin.html">Se connecter</a></li>
+                <li><a href="signup.html">S'inscrire</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <div class="uplaod-video-box relative">
+        <div class="uplaod-video absolute center-element">
+            <div class="video-files">
+                <p class="text-center">Liste des fichiers téléversées</p>
+                <ul class="file-list">
+                        
+                    <!--
+                        <li class="file-item">
+                            <i class="fas fa-download"></i>
+                            Filename <br>
+                            <progress id="progress" max="100" value="30">30%</progress>
+                        </li>
+                    -->
+
+                </ul>
+            </div>
+            <input type="file" name="" id="fileInput" accept="video/mp4" multiple style="display: none;">
+            <div class="bt-uplaod-box">
+                <button class="bt-uplaod" id="bt-uplaod">
+                    <i class="fas fa-download"></i>
+                    Téléverser vos fichiers.
+                </button>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <div class="footer-header flex flex-center-h flex-center-v gap-10">
+            <i class="fab fa-youtube"></i>
+            <h5>OuiTube</h5>
+        </div>
+        <div class="footer-content footer-content-m">
+            <div class="footer-menu-lists flex flex-center gap-10">
+                <div class="menu-lists-item flex-1">
+                    <h5>Product</h5>
+                    <div class="menu-list">
+                        <ul>
+                            <li><a href="#">Video Player</a></li>
+                            <li><a href="#">Create</a></li>
+                            <li><a href="#">Live Stream</a></li>
+                            <li><a href="#">Screen Recorder</a></li>
+                            <li><a href="#">Collaboration</a></li>
+                            <li><a href="#">Monétization</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-lists-item flex-1">
+                    <h5>Ressources</h5>
+                    <div class="menu-list">
+                        <ul>
+                            <li><a href="#">Video Player</a></li>
+                            <li><a href="#">Create</a></li>
+                            <li><a href="#">Live Stream</a></li>
+                            <li><a href="#">Screen Recorder</a></li>
+                            <li><a href="#">Collaboration</a></li>
+                            <li><a href="#">Monétization</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-lists-item flex-1">
+                    <h5>Affiliate</h5>
+                    <div class="menu-list">
+                        <ul>
+                            <li><a href="#">Video Player</a></li>
+                            <li><a href="#">Create</a></li>
+                            <li><a href="#">Live Stream</a></li>
+                            <li><a href="#">Screen Recorder</a></li>
+                            <li><a href="#">Collaboration</a></li>
+                            <li><a href="#">Monétization</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-lists-item flex-1">
+                    <h5>Quick</h5>
+                    <div class="menu-list">
+                        <ul>
+                            <li><a href="#">Video Player</a></li>
+                            <li><a href="#">Create</a></li>
+                            <li><a href="#">Live Stream</a></li>
+                            <li><a href="#">Screen Recorder</a></li>
+                            <li><a href="#">Collaboration</a></li>
+                            <li><a href="#">Monétization</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-lists-item flex-1">
+                    <h5>Contact</h5>
+                    <div class="menu-list">
+                        <ul>
+                            <li><a href="#">Video Player</a></li>
+                            <li><a href="#">Create</a></li>
+                            <li><a href="#">Live Stream</a></li>
+                            <li><a href="#">Screen Recorder</a></li>
+                            <li><a href="#">Collaboration</a></li>
+                            <li><a href="#">Monétization</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-social-icon flex">
+                <div class="social-icon flex-1">
+                    <ul class="flex flex-center-v gap-5">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                       
+                    </ul>
+                </div>
+                <div class="app-icon flex-1">
+                    <a href="#">
+                        <img src="assets/images/logo/playstore.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="assets/images/logo/appstore.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom flex flex-center-h flex-center-v">
+            Copyright &copy;  2021 OuiTube all rights Reserved.
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+    <script>
+        var fileInput = document.getElementById('fileInput')
+        var bt_uplaod = document.getElementById('bt-uplaod')
+
+        bt_uplaod.addEventListener('click', ()=>{
+            fileInput.click()
+        })
+
+        fileInput.addEventListener('change', (event)=>{
+
+            const files = event.target.files
+            if (files && files.length) {
+                for (let index = 0; index < files.length; index++) {
+                    const file = files[index]; 
+                    const name = file.name + ` (${Math.round(file.size/1048576)} Mo)`
+                    const li = document.createElement('li')
+                    li.className = "file-item"
+                    li.innerHTML = `<i class="fas fa-download"></i>`
+                    li.innerHTML += name + "<br>"
+                    li.innerHTML += `<progress id="progress" max="100" value="30">30%</progress>`
+
+                    document.querySelector('.file-list').appendChild(li)
+                    
+                }
+            }
+        })
+    </script>
+</body>
+</html>

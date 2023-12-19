@@ -1,0 +1,23 @@
+table th,
+table td{
+    border: 0.1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+ 
+.manage-video-table{
+    overflow: auto;
+}
+
+table tbody tr:nth-child(2n){
+    background-color: #efefef;
+}
+
+table tbody select{
+    background-color: white;
+}
+
+
+
+

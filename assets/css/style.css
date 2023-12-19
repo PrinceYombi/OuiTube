@@ -1,0 +1,81 @@
+/*** HEADER-TOP ***/
+header{
+    top: 0;
+    z-index: 9999;
+    background-color: white;
+}
+header .header-top{
+height: 70px;
+}
+/*** ICON ***/
+header .header-icon{
+    padding-left: 10px;
+}
+/*** LOGO ***/
+.logo img{
+    width: 250px;
+}
+.logo img:nth-child(2){
+    display: none; /*** CACHER LE 2e LOGO ***/
+}
+
+/*** BAR DE RECHERCHE ET SON ICON ***/
+header .header-top-center input{
+    width: 80%;
+    height: 39.5px;
+    padding-left: 10px; /*** Rechercher ***/
+    font-size: 1.5rem;
+}
+header .header-top-center i{
+    border-top: 0.1px solid #ccc;
+    border-right: 0.1px solid #ccc;
+    border-bottom: 0.1px solid #ccc;
+    padding: 9px;
+}
+
+/*** ICONES DE DROITES ***/
+header .header-top-right i{
+  font-size: 1.8rem;
+}
+header .header-top-right i:hover{
+  color: red;
+  transform: scale(1.2); /*** L'élément s'agrandit quand le curseur est sur lui ***/ 
+}
+
+/**** HEADER LEFT ***/
+header .header-left{
+    background-color: white;
+    height: 100vh;
+    width: 300px;
+    z-index: 9999; /*** L'élément sera toujours en haut ***/
+    display: none;
+
+}
+/*** LES LIENS et li***/
+header .header-left a{
+    display: block;
+    padding: 10px 5px;
+
+}
+header .header-left li:hover{
+    font-weight: bold;
+    background-color: #efefef;
+
+}
+
+/*** RESPONSIVE ***/
+@media screen and (max-width: 650px) {
+    /*** LE LOGO ***/
+    .logo img:nth-child(2){
+        display: block;
+        width: 80px;
+    }
+    .logo img:nth-child(1){
+        display: none;
+    }
+    
+    /*** MENU LEFT ***/
+    header .header-left{
+        width: 100%;
+    }
+}

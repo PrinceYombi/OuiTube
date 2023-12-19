@@ -1,0 +1,165 @@
+.reader{
+    top: 70px;
+    background-color: white;
+}
+aside{
+    min-width: 400px;
+    height: 100vh;
+    overflow: auto;
+}
+.reader-meta{
+    justify-content: space-between;
+    height: 25px;
+}
+
+.owner-video-meta{
+    justify-content: space-between;
+}
+.reader-action{
+    height: 24px;
+}
+
+.reader-actions .reader-action:hover{
+    border-bottom: 0.1px solid red;
+}
+.reader-actions i:hover{
+    color: red;
+    font-size: 1.5rem;
+    border-bottom: 1px solid red;
+}
+
+.owner-video-meta{
+    margin: 10px 0;
+}
+
+button.subscribe{
+    border: 0;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+}
+
+.suggestion-video-title h4{
+    margin: 0;
+}
+
+.video-meta-data{
+    color: gray;
+}
+
+.suggestion-poster img{
+    width: 168px;
+    height: 100px;
+}
+
+.suggestion-item{
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+[class^="container-reader"]{
+    padding: 10px;
+}
+
+@media screen and (max-width: 900px){
+    [class^="container-reader"]{
+        flex-direction: column;
+    }
+
+    aside{
+        min-width: 100%;
+    }
+
+    .reader{
+        border-bottom: 0.1px solid #ccc;
+    }
+}
+@media screen and (max-width: 650px){
+    .divider{
+        margin: 18px;
+    }
+}
+@media screen and (max-width: 350px){
+    .reader-actions{
+        font-size: 0.8rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

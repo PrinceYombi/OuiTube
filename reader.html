@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(3) OuiTube</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="icon" href="assets/images/logo/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+
+</head>
+<body>
+    <header class="sticky">
+        <div class="header-top box flex">
+            <div class="header-top-left flex-1 flex flex-center-v">
+               <div class="header-icon" id="collapse">
+                 <i class="fas fa-bars"></i>
+               </div>               
+                <a href="#">
+                    <div class="logo">
+                        <img src="assets/images/logo/logo-youtube.svg" alt="logo">
+                        <img src="assets/images/logo/favicon.svg" alt="logo">
+                    </div>
+                </a>
+            </div>
+            <div class="header-top-center flex-3 flex flex-center-v flex-center-h">
+                <input type="search" placeholder="Rechercher">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="header-top-right flex-1 flex flex-center-v">
+                <a href="#" class="flex-1 text-center"><i class="fas fa-bell"></i></a>
+                <a href="uplaod.html" class="flex-1 text-center"><i class="fas fa-arrow-circle-up"></i></a>
+                <a href="#" class="flex-1 text-center"><i class="fas fa-user-circle"></i></a>
+            </div>
+        </div>
+        <nav class="header-left fixed box" id="menu">
+            <ul>
+                <li><a href="/">Accueil</a></li>
+                <li><a href="index.html">Bibliotheque</a></li>
+                <li><a href="reader.html">Lecture</a></li>
+                <li><a href="#">Compte</a></li>
+                <li><a href="manage.html">Vidéos</a></li>
+                <li><a href="uplaod.html">Mettre en ligne</a></li>
+                <li><a href="signin.html">Se connecter</a></li>
+                <li><a href="signup.html">S'inscrire</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <div class="container-reader-xl flex gap-5">
+        <div class="reader sticky flex-3">
+            <div class="video-player">
+                <video controls width="100%">
+                    <source src="assets/video/formation-web.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="reader-video-meta">
+                <div class="reader-title text-center"><h4>Formation complète dévéloppeur web</h4></div>
+                <div class="reader-meta flex flex-center-v wrap">
+                    <div class="reader-video-meta flex bold gap-5">
+                        <div class="reader-video-views">75800 Vues</div>
+                        <div class="reader-publised-at">25 Janvier 2023</div>
+                    </div>
+                    <div class="reader-actions flex gap-20">
+                        <div class="reader-action flex gap-5">
+                            <i class="fas fa-thumbs-up"></i>
+                            <div class="action-view">1K</div>
+                        </div>
+                        <div class="reader-action flex gap-5">
+                            <i class="fas fa-thumbs-down"></i>
+                            <div class="action-view">23</div>
+                        </div>
+                        <div class="reader-action flex gap-5">
+                            <i class="fas fa-share"></i>
+                            <div class="action-view">Partager</div>
+                        </div>
+                        <div class="reader-action flex gap-5">
+                            <i class="fas fa-cloud-download-alt"></i>
+                            <div class="action-view">Enregistrer</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="owner-video-meta flex flex-center-v">
+                    <div class="owner-video-details flex flex-center-v gap-10">
+                        <div class="profile-picture owner-picture">
+                            <img src="assets/images/profil/espero.jpg" alt="owner picture">
+                        </div>
+                        <div class="owner-fullname">
+                            <div class="fullname bold">Espero AKPOLI</div>
+                            <div class="subscribe-details">56.3 K abonnés</div>
+                        </div>
+                    </div>
+                    <div class="bt-subscribe">
+                        <button class="subscribe">S'abonner</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <aside class="reader-suggestion flex-1">
+            <div class="suggestion-item flex flex-center-v gap-5">
+                <div class="suggestion-poster">
+                    <img src="assets/images/poster/1.jpg" width="100%" alt="suggestion video">
+                </div>
+                <div class="suggestion-details flex-1">
+                    <div class="suggestion-video-title"><h4>Formation complète dévéloppeur web</h4></div>
+                    <div class="owner-video-fullname">Web Design</div>
+                    <div class="video-meta-data flex">
+                        <div class="video-meta-views">689 Vues</div>
+                        <div class="video-meta-time">il y'a 20h</div>
+                    </div>
+                </div>
+            </div>
+            <div class="suggestion-item flex flex-center-v gap-5">
+                <div class="suggestion-poster">
+                    <img src="assets/images/poster/2.jpg" width="100%" alt="suggestion video">
+                </div>
+                <div class="suggestion-details flex-1">
+                    <div class="suggestion-video-title"><h4>Formation complète dévéloppeur web</h4></div>
+                    <div class="owner-video-fullname">Web Design</div>
+                    <div class="video-meta-data flex">
+                        <div class="video-meta-views">689 Vues</div>
+                        <div class="video-meta-time">il y'a 20h</div>
+                    </div>
+                </div>
+            </div>
+            <div class="suggestion-item flex flex-center-v gap-5">
+                <div class="suggestion-poster">
+                    <img src="assets/images/poster/3.jpg" width="100%" alt="suggestion video">
+                </div>
+                <div class="suggestion-details flex-1">
+                    <div class="suggestion-video-title"><h4>Formation complète dévéloppeur web</h4></div>
+                    <div class="owner-video-fullname">Web Design</div>
+                    <div class="video-meta-data flex">
+                        <div class="video-meta-views">689 Vues</div>
+                        <div class="video-meta-time">il y'a 20h</div>
+                    </div>
+                </div>
+            </div>
+            <div class="suggestion-item flex flex-center-v gap-5">
+                <div class="suggestion-poster">
+                    <img src="assets/images/poster/4.jpg" width="100%" alt="suggestion video">
+                </div>
+                <div class="suggestion-details flex-1">
+                    <div class="suggestion-video-title"><h4>Formation complète dévéloppeur web</h4></div>
+                    <div class="owner-video-fullname">Web Design</div>
+                    <div class="video-meta-data flex">
+                        <div class="video-meta-views">689 Vues</div>
+                        <div class="video-meta-time">il y'a 20h</div>
+                    </div>
+                </div>
+            </div>
+            <div class="suggestion-item flex flex-center-v gap-5">
+                <div class="suggestion-poster">
+                    <img src="assets/images/poster/5.jpg" width="100%" alt="suggestion video">
+                </div>
+                <div class="suggestion-details flex-1">
+                    <div class="suggestion-video-title"><h4>Formation complète dévéloppeur web</h4></div>
+                    <div class="owner-video-fullname">Web Design</div>
+                    <div class="video-meta-data flex">
+                        <div class="video-meta-views">689 Vues</div>
+                        <div class="video-meta-time">il y'a 20h</div>
+                    </div>
+                </div>
+            </div>
+            <div class="suggestion-item flex flex-center-v gap-5">
+                <div class="suggestion-poster">
+                    <img src="assets/images/poster/6.jpg" width="100%" alt="suggestion video">
+                </div>
+                <div class="suggestion-details flex-1">
+                    <div class="suggestion-video-title"><h4>Formation complète dévéloppeur web</h4></div>
+                    <div class="owner-video-fullname">Web Design</div>
+                    <div class="video-meta-data flex">
+                        <div class="video-meta-views">689 Vues</div>
+                        <div class="video-meta-time">il y'a 20h</div>
+                    </div>
+                </div>
+            </div>
+            <div class="suggestion-item flex flex-center-v gap-5">
+                <div class="suggestion-poster">
+                    <img src="assets/images/poster/7.jpg" width="100%" alt="suggestion video">
+                </div>
+                <div class="suggestion-details flex-1">
+                    <div class="suggestion-video-title"><h4>Formation complète dévéloppeur web</h4></div>
+                    <div class="owner-video-fullname">Web Design</div>
+                    <div class="video-meta-data flex">
+                        <div class="video-meta-views">689 Vues</div>
+                        <div class="video-meta-time">il y'a 20h</div>
+                    </div>
+                </div>
+            </div>
+            <div class="suggestion-item flex flex-center-v gap-5">
+                <div class="suggestion-poster">
+                    <img src="assets/images/poster/8.jpg" width="100%" alt="suggestion video">
+                </div>
+                <div class="suggestion-details flex-1">
+                    <div class="suggestion-video-title"><h4>Formation complète dévéloppeur web</h4></div>
+                    <div class="owner-video-fullname">Web Design</div>
+                    <div class="video-meta-data flex">
+                        <div class="video-meta-views">689 Vues</div>
+                        <div class="video-meta-time">il y'a 20h</div>
+                    </div>
+                </div>
+            </div>
+            <div class="suggestion-item flex flex-center-v gap-5">
+                <div class="suggestion-poster">
+                    <img src="assets/images/poster/9.jpg" width="100%" alt="suggestion video">
+                </div>
+                <div class="suggestion-details flex-1">
+                    <div class="suggestion-video-title"><h4>Formation complète dévéloppeur web</h4></div>
+                    <div class="owner-video-fullname">Web Design</div>
+                    <div class="video-meta-data flex">
+                        <div class="video-meta-views">689 Vues</div>
+                        <div class="video-meta-time">il y'a 20h</div>
+                    </div>
+                </div>
+            </div>
+            <div class="suggestion-item flex flex-center-v gap-5">
+                <div class="suggestion-poster">
+                    <img src="assets/images/poster/10.jpg" width="100%" alt="suggestion video">
+                </div>
+                <div class="suggestion-details flex-1">
+                    <div class="suggestion-video-title"><h4>Formation complète dévéloppeur web</h4></div>
+                    <div class="owner-video-fullname">Web Design</div>
+                    <div class="video-meta-data flex">
+                        <div class="video-meta-views">689 Vues</div>
+                        <div class="video-meta-time">il y'a 20h</div>
+                    </div>
+                </div>
+            </div>
+            <div class="suggestion-item flex flex-center-v gap-5">
+                <div class="suggestion-poster">
+                    <img src="assets/images/poster/11.jpg" width="100%" alt="suggestion video">
+                </div>
+                <div class="suggestion-details flex-1">
+                    <div class="suggestion-video-title"><h4>Formation complète dévéloppeur web</h4></div>
+                    <div class="owner-video-fullname">Web Design</div>
+                    <div class="video-meta-data flex">
+                        <div class="video-meta-views">689 Vues</div>
+                        <div class="video-meta-time">il y'a 20h</div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <footer>
+        <div class="footer-header flex flex-center-h flex-center-v gap-10">
+            <i class="fab fa-youtube"></i>
+            <h5>OuiTube</h5>
+        </div>
+        <div class="footer-content footer-content-m">
+            <div class="footer-menu-lists flex flex-center gap-10">
+                <div class="menu-lists-item flex-1">
+                    <h5>Product</h5>
+                    <div class="menu-list">
+                        <ul>
+                            <li><a href="#">Video Player</a></li>
+                            <li><a href="#">Create</a></li>
+                            <li><a href="#">Live Stream</a></li>
+                            <li><a href="#">Screen Recorder</a></li>
+                            <li><a href="#">Collaboration</a></li>
+                            <li><a href="#">Monétization</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-lists-item flex-1">
+                    <h5>Ressources</h5>
+                    <div class="menu-list">
+                        <ul>
+                            <li><a href="#">Video Player</a></li>
+                            <li><a href="#">Create</a></li>
+                            <li><a href="#">Live Stream</a></li>
+                            <li><a href="#">Screen Recorder</a></li>
+                            <li><a href="#">Collaboration</a></li>
+                            <li><a href="#">Monétization</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-lists-item flex-1">
+                    <h5>Affiliate</h5>
+                    <div class="menu-list">
+                        <ul>
+                            <li><a href="#">Video Player</a></li>
+                            <li><a href="#">Create</a></li>
+                            <li><a href="#">Live Stream</a></li>
+                            <li><a href="#">Screen Recorder</a></li>
+                            <li><a href="#">Collaboration</a></li>
+                            <li><a href="#">Monétization</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-lists-item flex-1">
+                    <h5>Quick</h5>
+                    <div class="menu-list">
+                        <ul>
+                            <li><a href="#">Video Player</a></li>
+                            <li><a href="#">Create</a></li>
+                            <li><a href="#">Live Stream</a></li>
+                            <li><a href="#">Screen Recorder</a></li>
+                            <li><a href="#">Collaboration</a></li>
+                            <li><a href="#">Monétization</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-lists-item flex-1">
+                    <h5>Contact</h5>
+                    <div class="menu-list">
+                        <ul>
+                            <li><a href="#">Video Player</a></li>
+                            <li><a href="#">Create</a></li>
+                            <li><a href="#">Live Stream</a></li>
+                            <li><a href="#">Screen Recorder</a></li>
+                            <li><a href="#">Collaboration</a></li>
+                            <li><a href="#">Monétization</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-social-icon flex">
+                <div class="social-icon flex-1">
+                    <ul class="flex flex-center-v gap-5">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                       
+                    </ul>
+                </div>
+                <div class="app-icon flex-1">
+                    <a href="#">
+                        <img src="assets/images/logo/playstore.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="assets/images/logo/appstore.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom flex flex-center-h flex-center-v">
+            Copyright &copy;  2021 OuiTube all rights Reserved.
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
